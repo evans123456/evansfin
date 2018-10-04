@@ -1,0 +1,42 @@
+.Container{
+    background-color: rgb(236, 17, 17);
+    height: 2000px;
+
+   
+}
+
+/* parralax */
+.bird-box{
+    position: relative;
+    height: 600px;
+    background-image: url(../assets/background.png);
+    background-size: auto 600px; /*puts the image to the right size */
+    background-position: top center;
+    background-attachment: fixed; /* makes the background img not move*/
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.fore-bird{
+    /* width: 4000px;
+    height: 6000px; /*put exact height*/
+    /* background-color: pink;
+    background-image: url(../assets/front.png); */
+    /* background-size: auto 600px; puts the image to the right size */
+/* 
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px; */
+   /* top: 300px; */
+
+   position: relative;
+    height: 600px;
+    background-image: url(../assets/front.png);
+    background-size: auto 600px; /*puts the image to the right size */
+    background-position: top center;
+    background-attachment: fixed; /* makes the background img not move*/
+    background-repeat: no-repeat;
+
+}
