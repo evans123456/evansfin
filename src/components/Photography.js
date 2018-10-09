@@ -1,35 +1,34 @@
 import React, { Component } from 'react'
 import './Photography.css'
-import $ from 'jquery'
+import {TweenMax,TweenLite, Power2, TimelineLite} from "gsap/TweenMax";
+
 
  class Photography extends Component {
-
-  componentWillMount(){
-    $(window).on('scroll',function(){
-      console.log('inside jquery')
-    })
-    console.log('OUTSIDE JQUERY')
+  constructor(props){
+    super(props);
+    // reference to the DOM node
+    this.myElement = null;
+    // reference to the animation
+    this.myTween = null;
   }
 
-  handleResize(){
-    $(window).scroll(function(){
-      console.log('inside jquery')
-    })
-    console.log('OUTSIDE JQUERY')
-
+  componentDidMount(){
+    // use the node ref to create the animation
+    this.myTween = TweenLite.to(this.myElement, 1, {x: 100, y: 100});
+    console.log(this.myTween)
   }
+
+
   
 
   render() {
     return (
       <div className='Container' >
-      {this.handleResize()}
-
-
+    
 
           <header className='bird-box'>
 
-                <div className = 'fore-bird' >
+                <div className = 'fore-bird' ref={div => this.myElement = div} >
                  
                 </div>
 
