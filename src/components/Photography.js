@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Photography.css'
-import {TweenMax,TweenLite, Power2, TimelineLite} from "gsap/TweenMax";
-import * as ScrollMagic from 'scrollmagic'
+import {TweenLite} from "gsap/TweenMax";
+//import * as ScrollMagic from 'scrollmagic'
 
 
 
