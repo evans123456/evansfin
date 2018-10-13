@@ -14,14 +14,14 @@ toggleCategories=()=>{
     return(
     <div className='projects-grid'  >
       <Card shadow={0} style={{minwidth: '450px', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>Welcome</CardTitle>
+        <CardTitle style={{color: '#000', height: '176px', background: 'url(https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LMbeeBDU7TeGUiygHOR%2Favatar.png?generation=1537190047097058&alt=media) center / cover'}}>MetaData Dictionary</CardTitle>
             <CardText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Mauris sagittis pellentesque lacus eleifend lacinia...
             </CardText>
             <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>live demo</Button>
+                <Button colored href='https://github.com/evans123456/MetaDataDHIS2'>Github</Button>
+                <Button colored href='https://hiskenya.org/dhis-web-commons/security/login.action' >live demo</Button>
                 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>

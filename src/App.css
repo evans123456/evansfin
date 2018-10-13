@@ -1,144 +1,595 @@
-.header-color{
-  background: #40E0D0;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-
-.landing-grid{
-  background: #40E0D0;  /* fallback for old browsers */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .header-color{
+    background: #40E0D0;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  position: fixed;
-  text-align: center;
-  width: 100%;
-  height: 100%;
+  
+  }
+  
+  
+  .landing-grid{
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+  }
+  
+  .avatar-img{
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+  
+  }
+  .intro-text{
+    /* background-color: #40E0D0; */
+    padding: 5em;
+    margin: 20px auto;
+  
+  }
+  .banner-text{
+    background-color: black;
+    opacity: .6;
+    width: 75%;
+    margin: auto;
+    border-radius:10px;
+  }
+  .banner-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+  .banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 0.1em;
+  }
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+  .social-links i {
+    color: white; 
+    font-size: 5em;
+    padding: 8px;
+  }
+  .projects-grid{
+    display: flex;
+  
+  }
+  .contact-body{
+    margin: auto;
+    /* background: grey; */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+  .contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+  
+  }
+  .contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+  }
+  .contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  .contact-list i{
+    font-size: 66px;
+    padding-right: 5rem;
+  }
+  
+  .resume-right-col{
+    background: #27221f;
+    color: white;
+    padding: 2em;
+  }
 }
-
-.avatar-img{
-  height: 250px;
-  width: 250px;
-  padding-top: 5em;
-
-}
-.intro-text{
-  /* background-color: #40E0D0; */
-  padding: 5em;
-  margin: 20px auto;
-
-}
-.banner-text{
-  background-color: black;
-  opacity: .6;
-  width: 75%;
-  margin: auto;
-  border-radius:10px;
-}
-.banner-text h1{
-  font-size: 66px;
-  font-weight: bold;
-  color: white;
-}
-
-.banner-text hr{
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
-}
-.banner-text p{
-  color: white;
-  font-size: 20px;
-  padding: 1em;
-}
-.social-links{
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-}
-.social-links i {
-  color: white; 
-  font-size: 5em;
-  padding: 8px;
-}
-.projects-grid{
-  display: flex;
-
-}
-.contact-body{
-  margin: auto;
-  /* background: grey; */
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 2em;
-}
-.contact-grid{
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 550px;
-  background: white;
-  color: black;
-  /* border: 2px solid red; */
-  margin-bottom: 20px;
-
-}
-.contact-grid h2 {
-  font-family: 'Anton', sans-serif;
-}
-
-.contact-grid p {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
-}
-.contact-grid hr {
-  border-top: 5px dotted black;
-  width: 50%;
-  margin: auto;
-}
-.contact-list i{
-  font-size: 66px;
-  padding-right: 5rem;
-}
-
-.resume-right-col{
-  background: #27221f;
-  color: white;
-  padding: 2em;
-}
-
+/* ---------------------------------------------------------------------------------------------------------- */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .header-color{
+    background: #40E0D0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  
   .landing-grid{
-  /* background: #1a2a6c;  fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  position: fixed;
-  text-align: center;
-  width: 100%;
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+  }
+  
+  .avatar-img{
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+  
+  }
+  .intro-text{
+    /* background-color: #40E0D0; */
+    padding: 5em;
+    margin: 20px auto;
+  
+  }
+  .banner-text{
+    background-color: black;
+    opacity: .6;
+    width: 75%;
+    margin: auto;
+    border-radius:10px;
+  }
+  .banner-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+  .banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 0.1em;
+  }
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+  .social-links i {
+    color: white; 
+    font-size: 2em;
+    padding: 8px;
+    float: left;
+    margin-left:-20px;
+  }
+  .projects-grid{
+    display: flex;
+  
+  }
+  .contact-body{
+    margin: auto;
+    /* background: grey; */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+  .contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+    overflow: scroll;
+  
+  }
+  .contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+  }
+  .contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  .contact-list i{
+    font-size: 66px;
+    padding-right: 5rem;
+    display: flex;
+    
+  }
+  
+  .resume-right-col{
+    background: #27221f;
+    color: white;
+    padding: 2em;
+  }
 }
-}
-
+/* --------------------------------------------------------------------------------------------------------------------- */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .example {background: green;}
+  .header-color{
+    background: #40E0D0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  
+  .landing-grid{
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+  }
+  
+  .avatar-img{
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+  
+  }
+  .intro-text{
+    /* background-color: #40E0D0; */
+    padding: 5em;
+    margin: 20px auto;
+  
+  }
+  .banner-text{
+    background-color: black;
+    opacity: .6;
+    width: 75%;
+    margin: auto;
+    border-radius:10px;
+  }
+  .banner-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+  .banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 0.1em;
+  }
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+  .social-links i {
+    color: white; 
+    font-size: 5em;
+    padding: 8px;
+  }
+  .projects-grid{
+    display: flex;
+  
+  }
+  .contact-body{
+    margin: auto;
+    /* background: grey; */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+  .contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+    overflow: scroll;
+  
+  }
+  .contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+  }
+  .contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  .contact-list i{
+    font-size: 66px;
+    padding-right: 5rem;
+  }
+  
+  .resume-right-col{
+    background: #27221f;
+    color: white;
+    padding: 2em;
+  }
 }
 
+
+/* -------------------------------------------------------------------------------------------------------------------- */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .example {background: blue;}
+  .header-color{
+    background: #40E0D0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  
+  .landing-grid{
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+  }
+  
+  .avatar-img{
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+  
+  }
+  .intro-text{
+    /* background-color: #40E0D0; */
+    padding: 5em;
+    margin: 20px auto;
+  
+  }
+  .banner-text{
+    background-color: black;
+    opacity: .6;
+    width: 75%;
+    margin: auto;
+    border-radius:10px;
+  }
+  .banner-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+  .banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 0.1em;
+  }
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+  .social-links i {
+    color: white; 
+    font-size: 5em;
+    padding: 8px;
+  }
+  .projects-grid{
+    display: flex;
+  
+  }
+  .contact-body{
+    margin: auto;
+    /* background: grey; */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+  .contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+    overflow: scroll;
+  
+  }
+  .contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+  }
+  .contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  .contact-list i{
+    font-size: 66px;
+    padding-right: 5rem;
+  }
+  
+  .resume-right-col{
+    background: #27221f;
+    color: white;
+    padding: 2em;
+  }
 } 
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .example {background: orange;}
+  .header-color{
+    background: #40E0D0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  
+  .landing-grid{
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+  }
+  
+  .avatar-img{
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+  
+  }
+  .intro-text{
+    /* background-color: #40E0D0; */
+    padding: 5em;
+    margin: 20px auto;
+  
+  }
+  .banner-text{
+    background-color: black;
+    opacity: .6;
+    width: 75%;
+    margin: auto;
+    border-radius:10px;
+  }
+  .banner-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+  .banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 0.1em;
+  }
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+  .social-links i {
+    color: white; 
+    font-size: 5em;
+    padding: 8px;
+  }
+  .projects-grid{
+    display: flex;
+  
+  }
+  .contact-body{
+    margin: auto;
+    /* background: grey; */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+  .contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+    overflow: scroll;
+  
+  }
+  .contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+  }
+  .contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  .contact-list i{
+    font-size: 66px;
+    padding-right: 5rem;
+  }
+  
+  .resume-right-col{
+    background: #27221f;
+    color: white;
+    padding: 2em;
+  }
 } 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .example {background: pink;}
-}
+/* finitoooo */

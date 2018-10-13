@@ -4,8 +4,8 @@ import { Grid, Cell,List,ListItem ,ListItemContent} from 'react-mdl'
 export default class Contact extends Component {
   render() {
     return (
-      <div className='contact-body' >
-        <Grid className='contact-grid' >
+      <div className='contact-body' style={{height:'100%'}} >
+        <Grid className='contact-grid' style={{height:'100%'}}>
           <Cell col={6} >
               <h2>Evans Wahome G.</h2>
               <img 
@@ -31,12 +31,12 @@ export default class Contact extends Component {
                   </ListItemContent>
                 </ListItem>
 
-                <ListItem>
+                {/* <ListItem>
                   <ListItemContent style={{ fontSize:'25px', fontFamily:'Anton' }} >
                   <i className='fa fa-fax' aria-hidden='true' />
                   (+254) 701-802-417
                   </ListItemContent>
-                </ListItem>
+                </ListItem> */}
 
                 <ListItem>
                   <ListItemContent style={{ fontSize:'25px', fontFamily:'Anton' }} >
@@ -45,12 +45,12 @@ export default class Contact extends Component {
                   </ListItemContent>
                 </ListItem>
 
-                <ListItem>
+                {/* <ListItem>
                   <ListItemContent style={{ fontSize:'25px', fontFamily:'Anton' }} >
-                  <i className='fa fa-skype' aria-hidden='true' />
-                  (+254) 701-802-417
+                  <i className='fab fa-instagram' aria-hidden='true' />
+                  @darity100
                   </ListItemContent>
-                </ListItem>
+                </ListItem> */}
             </List>
 
             </div>

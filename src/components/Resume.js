@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import {Grid, Cell } from 'react-mdl'
 import Education from './Education'
+import Experience from './Experience'
+import Skills from './Skills'
 
 export default class Resume extends Component {
   render() {
@@ -41,6 +43,58 @@ export default class Resume extends Component {
                   />
               <hr style={{borderTop:'3px solid #e22947'}} />
               <h3>Experience</h3>
+              <Experience 
+              startYear={2014}
+              endYear={2015}
+              jobName={'Camoflauge'}
+              jobDescription={' (webdeveloper)Lorem ipsum dolor sit amet, consectetur  Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia...adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...'}
+             />
+             <Experience 
+              startYear={2015}
+              endYear={2015}
+              jobName={'IT support'}
+              jobDescription={' (WTO)Lorem ipsum dolor sit amet, consectetur  Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia...adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...'}
+             />
+             <Experience 
+              startYear={2016}
+              endYear={2016}
+              jobName={'Internet SOLutionsS'}
+              jobDescription={' (installing fancy software in kengen)Lorem ipsum dolor sit amet, consectetur  Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia...adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...'}
+             />
+             <Experience 
+              startYear={2018}
+              endYear={2018}
+              jobName={'Cloud Data'}
+              jobDescription={' (Network fixing sthn)Lorem ipsum dolor sit amet, consectetur  Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia...adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...'}
+             />
+             <Experience 
+              startYear={2018}
+              endYear={2018}
+              jobName={'DHIS2/Health IT'}
+              jobDescription={' (programming the metadata dictionary)Lorem ipsum dolor sit amet, consectetur  Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia...adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...'}
+             />
+
+          <hr style={{borderTop:'3px solid #e22947'}} />
+
+          <h3>Skills</h3>
+
+            <Skills
+              skill={'Python'}
+              progress = {77}
+            />
+            <Skills
+              skill={'C'}
+              progress = {80}
+            />
+            <Skills
+              skill={'MATLAB'}
+              progress = {60}
+            />
+            <Skills
+              skill={'HTML/CSS'}
+              progress = {80}
+            />
+
               
            </Cell>
 
