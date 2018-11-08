@@ -2,7 +2,7 @@
   "name": "evansfin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://evans123456.github.io/evansfin",
+  "homepage": "https://evans123456.github.io/evansfin",
   "dependencies": {
     "gsap": "^2.0.2",
     "jquery": "^3.3.1",
